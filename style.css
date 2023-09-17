@@ -1,20 +1,39 @@
 body{
-    background-color: rgb(135, 175, 135);
+    background-color: rgba(75, 110, 64, 0.753);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 3%
 }
-.main-header{
+#id{
     text-align: center;
     color: white;
-    margin-top: 40px auto;
+    margin-top: 10px auto;
+    padding: 5px 5px
+}
+.background{
+    background-color: rgb(143, 202, 143);
+    padding: 70px auto;
+    top: 70px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1%;
+    height: 75vh;
 }
 .header{
     text-align: center;
-    color: white
+    color: white;
 }
-.words{
+.preview{
     text-align: center;
-    color: white
+    color: white;
+    margin: 10px auto;
+    margin-left: 50px;
+    margin-right: 50px
 }
-.picture{
+
+img{
     width: 55vh;
-    height: 55vh;
+    height: 50vh;
+    margin-left: 300px;
+    margin-right: 305px;
+    position: absolute
 }
